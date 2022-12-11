@@ -25,4 +25,10 @@ public class StringTest {
         String require2 = "(1,2)".replace("(", "").replace(")", "");
         assertThat(require2).isEqualTo("1,2");
     }
+
+    @Test
+    void replace3() {
+        String requrie3 = "abc";
+
+    }
 }
